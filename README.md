@@ -18,11 +18,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
         
 #run_analysis.R
 
-Unzip the source (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) into a folder on your local drive, say C:\Users\yourname\Documents\R\
+Unzip the source (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) into a folder on your local drive, say C:\Users\yourname\Documents\R\DataCleanProject\
+ 
+Place folders test and train in the directory above. Also place files activity_labels.txt, features.txt, README.txt and features_info.txt in the directory above.  
 
 Put run_analysis.R into C:\Users\yourname\Documents\R\DataCleanProject\
 
-This the required package (plyr) 
+This script required package (plyr) 
 
 In RStudio: setwd("C:\\Users\\yourname\\Documents\\R\\DataCleanProject\\"), followed by: source("run_analysis.R")
 
