@@ -45,8 +45,8 @@ FinalResult <- function (data,name){
         
         print(paste("Final data", name))
         
-        file <- paste(finalfolder, "/", name,".csv" ,sep="")
-        write.csv(data,file)
+        file <- paste(finalfolder, "/", name,".txt" ,sep="")
+        write.table(data,file,row.name=FALSE)
 }
 
 
